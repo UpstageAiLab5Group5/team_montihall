@@ -7,3 +7,6 @@ def monty_hall_no_random():
     stay_win_rate = stay_wins / total_cases
     print(f"선택을 유지한 경우 승리 확률: {stay_win_rate:.2%}")
     print(f"선택을 바꾼 경우 승리 확률: {switch_win_rate:.2%}")
+
+if __name__ == "__main__":
+    monty_hall_no_random()
